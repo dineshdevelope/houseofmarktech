@@ -111,6 +111,29 @@ const Main = () => {
                 </div>
               </div>
             </div>
+            <div className="relative w-56 h-auto group ">
+              <img
+                src="https://www.houseofmarktech.com/assets/playingcard-BCNbyrsW.png"
+                alt="card-logo"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute top-0 left-0 w-full h-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="w-full h-full border border-gray-300 rounded-xl overflow-hidden">
+                  <div className="bg-black h-40">
+                    <p className="font-bold text-xl pl-7 pt-5 text-white">
+                      Inefficient <br /> Operations?
+                    </p>
+                  </div>
+                  <div className="bg-white h-40">
+                    <p className="font-bold text-2xl pl-5 pt-3 text-black">
+                      We optimize <br />
+                      processes with <br />
+                      streamlined <br /> Strategies.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
